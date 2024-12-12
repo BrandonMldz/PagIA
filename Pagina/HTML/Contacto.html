@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<video autoplay muted loop id="bg" src="../IMG/F2.mp4" type="video/mp4">
+</video>
+
+<header> 
+    <div id="Logo"> 
+        <img src="../IMG/ADLI8.png" alt="Logo"> </div>
+         <nav> 
+            <ul> 
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="Historia.html">Historia</a></li>  
+                <li><a href="Contacto.html">Contacto</a></li> 
+                </ul> 
+            </nav> 
+            <div id="TituloP">IA</div>
+         </header> 
+    
+<main>
+    <form id="Formulario" action="" method="get">
+        <label for="Nombre">Nombre </label>
+    <input type="text" name="nombre" required>
+
+    <label for="email">Correo </label>
+    <input type="email" name="email" required>
+    
+    <label for="tel">Telefono </label>
+    <input maxlength=11 type="" name="Telefono">
+        
+    <label for="fecha">Fecha de Nacimiento </label>
+    <input type="date" name="Fecha" id="">
+
+    <label for="Genero">Género </label>
+    <div class="radio-group"> 
+        <label> Masculino <input class="radio-input" type="radio" name="Genero" value="Masculino"></label> 
+        <label> Femenino <input class="radio-input" type="radio" name="Genero" value="Femenino">  </label>
+    </div>
+
+    <label for="city">Ciudad </label>
+       
+        <select name="Ciudad">
+        <option value="">Bogota</option>
+        <option value="">Cali</option>
+        <option value="">Cartagena</option>
+        </select>
+    
+    <label for="contraseña">Contraseña </label>
+    <input type="password" name="password" required>
+
+    <label><button type="submit">ENVIAR</button></label>
+
+    </form>
+</main>
+
+</body>
+</html>
+
+
+
